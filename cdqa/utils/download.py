@@ -86,9 +86,9 @@ def download_model(model="bert-squad_1.1", dir="."):
         print("\nDownloading trained model...")
 
         dir = os.path.expanduser(dir)
-        BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        if not os.path.exists(os.path.join(BASE_DIR, dir)):
-            os.makedirs(os.path.join(BASE_DIR, dir))
+        print('\n', dir)
+        if not os.path.exists(dir):
+            os.makedirs(dir)
 
         url = models_url[model]
         file = url.split("/")[-1]
