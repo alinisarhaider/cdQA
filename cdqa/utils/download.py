@@ -86,7 +86,6 @@ def download_model(model="bert-squad_1.1", dir="."):
         print("\nDownloading trained model...")
 
         dir = os.path.expanduser(dir)
-        print('\n', dir)
         if not os.path.exists(dir):
             os.makedirs(dir)
 
