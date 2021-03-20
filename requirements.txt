@@ -14,7 +14,7 @@ streamlit
 pandas-compat
 pytorch_pretrained_bert
 https://download.pytorch.org/whl/cpu/torch-1.1.0-cp36-cp36m-linux_x86_64.whl
-Jinja2==2.10.1
+Jinja2==2.11.3
 gunicorn==19.9.0
 certifi==2019.11.28
 itsdangerous==1.1.0
